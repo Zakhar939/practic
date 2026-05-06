@@ -34,7 +34,7 @@ public class Lesson1 {
         int j = 2;
         int c;
         c = i++ * j--;
-        System.out.println("Результат: " + c);
+        System.out.println("Результатт: " + c);
         System.out.println(i);
         System.out.println(j);
 
