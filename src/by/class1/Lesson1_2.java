@@ -5,17 +5,15 @@ import java.util.Scanner;
 public class Lesson1_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите x");
-        int x = sc.nextInt();
-        System.out.println("Введите y");
+        System.out.println("Введите a");
+        int a = sc.nextInt();
+        /*System.out.println("Введите y");
         int y = sc.nextInt();
         System.out.println("Введите z");
         int z = sc.nextInt();
 
 
-        int a = 3;
-        int b = 10;
-        int c;
+
         /*
         if ( a > b ) {
             c = a - b;
@@ -37,10 +35,13 @@ public class Lesson1_2 {
         } else System.out.println("Число а не делится на 3");*/
 
         if (a % 3 == 0 && a % 7 == 0) {
+            System.out.println("Число а делится на 3 и на 7");
+        } else if (a % 3 == 0) {
+            System.out.println("Число а делится на 3");
 
-        }
-
-
-        }
+        } else if (a % 7 == 0);
+            System.out.println("Число а делится на 7");
 
     }
+
+}
