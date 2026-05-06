@@ -39,8 +39,9 @@ public class Lesson1_2 {
         } else if (a % 3 == 0) {
             System.out.println("Число а делится на 3");
 
-        } else if (a % 7 == 0);
+        } else if (a % 7 == 0) {
             System.out.println("Число а делится на 7");
+        }
 
     }
 
