@@ -40,7 +40,7 @@ public class Lesson1_2 {
             System.out.println("Число а делится на 3");
 
         } else if (a % 7 == 0) {
-            System.out.println("Число а делиттся на 7");
+            System.out.println("Число а делится на 7");
         }
 
     }
