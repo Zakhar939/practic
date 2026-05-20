@@ -5,7 +5,7 @@ public class StringMain {
         StringClass str1 = new StringClass();
         System.out.println(str1.stroka("I like Java"));
 
-        String str2 = "строкb";
+        String str2 = "строкa";
         char a = str2.charAt(str2.length()-1);
         System.out.println(a);
 
